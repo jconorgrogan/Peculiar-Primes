@@ -12,3 +12,30 @@ I have found a seperate function that generates these primes as well
 
 <img width="603" alt="image" src="https://github.com/jconorgrogan/Peculiar-Primes/assets/130090573/f0781052-ff2e-4c24-94c6-0669f1fd84dc">
 
+# Modulo \( p \) Analysis of Two Different Mathematical Constructs
+
+## Conor's Sequence \( a(n) \)
+
+### Equation
+\[ a(n) = n \cdot a(n-1) + 1 \]
+\[ a(n) \mod p = (n \cdot a(n-1) + 1) \mod p \]
+
+### Characteristics
+1. **Recursive Sequence**: Each term depends on the previous term.
+2. **Multiplicative Structure**: Involves multiplication by integers.
+3. **Addition of 1**: Each term is incremented by 1.
+4. **Defined for All Natural Numbers**: The sequence is generated for all \( n \).
+
+---
+
+## Paper's Sequence \( S \)
+
+### Equation
+\[ S = 1 - 1! + 2! - 3! + \ldots + (-1)^{p-1} \cdot (p-1)! \]
+\[ S \mod p = \sum_{i=0}^{p-1} (-1)^i \cdot i! \mod p \]
+
+---
+
+## Common Observation
+
+Despite being fundamentally different, both \( a(n) \) and \( S \) yield the same modulo \( p \) values for prime \( p \).
