@@ -1,7 +1,7 @@
 # Peculiar-Primes
 
 A Paper from 2009 found an interesting connection to the Taylor Series https://browse.arxiv.org/pdf/0709.0671.pdf
-<img width="640" alt="image" src="https://github.com/jconorgrogan/Peculiar-Primes/assets/130090573/4535f262-e0e2-432d-bff0-aa2041e6feba">
+
 
 
 <img width="599" alt="image" src="https://github.com/jconorgrogan/Peculiar-Primes/assets/130090573/4c69a713-d087-4a16-a11c-775197d23f5b">
