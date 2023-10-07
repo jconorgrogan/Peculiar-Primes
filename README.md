@@ -10,4 +10,5 @@ I have found a seperate function that generates these primes as well
 
 <img width="445" alt="image" src="https://github.com/jconorgrogan/Peculiar-Primes/assets/130090573/588456b0-3bed-44d6-bd9a-64a9c062a708">
 
-<img width="602" alt="image" src="https://github.com/jconorgrogan/Peculiar-Primes/assets/130090573/6ff89a39-f241-4d0c-9be6-9205561ea422">
+<img width="603" alt="image" src="https://github.com/jconorgrogan/Peculiar-Primes/assets/130090573/f0781052-ff2e-4c24-94c6-0669f1fd84dc">
+
