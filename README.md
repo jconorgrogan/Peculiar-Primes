@@ -39,3 +39,27 @@ I have found a seperate function that generates these primes as well
 ## Common Observation
 
 Despite being fundamentally different, both \( a(n) \) and \( S \) yield the same modulo \( p \) values for prime \( p \).
+
+.....
+This formula feels very similar to another interesting set of relationships:
+
+[ u_{n+1} = -1 + (n+1)u_n \]
+initialized with:
+\[ u_0 = e - 1 \]... this forms:
+
+1. **Integers (n)**: The index \( n \) in the sequence progression represents the natural counting of integers.
+
+2. **Factorials**: The sequence produces values that, when associated with the number \( e \), reveal factorial growth. Each term in the sequence, when considered in terms of \( e \), captures the factorial of the integer \( n \), albeit scaled by \( e \).
+
+3. **Arrangements**: The negative component in each term of the sequence represents the count of possible arrangements or configurations for the respective integer \( n \). Specifically, The negative number is Total number of permutations of all subsets of an n-set (and the number of one-to-one sequences that can be formed from n distinct objects)
+
+This single recurrence relationship simultaneously captures the natural progression of integers, the factorial growth associated with these integers (scaled by \( e \)), and a count of configurations or arrangements related to each integer.
+
+...Compared to the first sequence discussed, One sequence "adds then multiplies," and the other "multiplies then subtracts," and they do so with slightly adjusted scaling factors (
+�
+n vs. 
+�
++
+1
+n+1).
+
