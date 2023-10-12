@@ -45,20 +45,29 @@ This formula feels very similar to another interesting set of relationships:
 
 [ u_{n+1} = -1 + (n+1)u_n \]
 initialized with:
-\[ u_0 = e - 1 \]... this forms:
-
-1. **Integers (n)**: The index \( n \) in the sequence progression represents the natural counting of integers.
-
-2. **Factorials**: The sequence produces values that, when associated with the number \( e \), reveal factorial growth. Each term in the sequence, when considered in terms of \( e \), captures the factorial of the integer \( n \), albeit scaled by \( e \).
-
-3. **Arrangements**: The negative component in each term of the sequence represents the count of possible arrangements or configurations for the respective integer \( n \). Specifically, The negative number is Total number of permutations of all subsets of an n-set (and the number of one-to-one sequences that can be formed from n distinct objects). You see this sequence, with a negative sign in the output:	1, 2, 5, 16, 65, 326, 1957, 13700,
-
-
-...Compared to the first sequence discussed, One sequence "adds then multiplies," and the other "multiplies then subtracts," and they do so with slightly adjusted scaling factors (
+\[ u_0 = e - 1 \]... this (when symbolically calculated) forms: Integers (
 �
-n vs. 
+n): The index 
 �
-+
-1
-n+1).
+n in the sequence progression represents natural counting, starting from 0.
 
+Factorials: The sequence generates terms that feature factorial growth when associated with the number 
+�
+e. Specifically, the coefficient of 
+�
+e in each term is 
+�
+!
+n!, indicating that the term captures the factorial nature of 
+�
+n, scaled by 
+�
+e.
+
+Arrangements: The negative component in each term of the sequence signifies the total number of arrangements possible for a set of 
+
+n distinct objects. These arrangements include all permutations of subsets of an 
+
+n-set, which is also the number of one-to-one sequences that can be formed from 
+
+n distinct objects. The sequence for these negative components is: 1, 2, 5, 16, 65, 326, 1957, 13700, ...
