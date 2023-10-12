@@ -70,4 +70,4 @@ n distinct objects. These arrangements include all permutations of subsets of an
 
 n-set, which is also the number of one-to-one sequences that can be formed from 
 
-n distinct objects. The sequence for these negative components is: 1, 2, 5, 16, 65, 326, 1957, 13700, ...
+n distinct objects. The sequence for these negative components is: 1, 2, 5, 16, 65, 326, 1957, 13700, ...The negative components in your sequence can be understood as the sum of permutations of all subsets of an � n-set, including the empty set. This can be defined mathematically as: � ( � ) = ∑ � = 0 � � ! � ! a(n)= k=0 ∑ n ​ k! n! ​ This is the total number of one-to-one sequences that can be formed from  n distinct objects, including sequences with zero elements (i.e., the empty set).
