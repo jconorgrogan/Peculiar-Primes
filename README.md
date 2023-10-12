@@ -51,9 +51,8 @@ initialized with:
 
 2. **Factorials**: The sequence produces values that, when associated with the number \( e \), reveal factorial growth. Each term in the sequence, when considered in terms of \( e \), captures the factorial of the integer \( n \), albeit scaled by \( e \).
 
-3. **Arrangements**: The negative component in each term of the sequence represents the count of possible arrangements or configurations for the respective integer \( n \). Specifically, The negative number is Total number of permutations of all subsets of an n-set (and the number of one-to-one sequences that can be formed from n distinct objects)
+3. **Arrangements**: The negative component in each term of the sequence represents the count of possible arrangements or configurations for the respective integer \( n \). Specifically, The negative number is Total number of permutations of all subsets of an n-set (and the number of one-to-one sequences that can be formed from n distinct objects). You see this sequence, with a negative sign in the output:	1, 2, 5, 16, 65, 326, 1957, 13700,
 
-This single recurrence relationship simultaneously captures the natural progression of integers, the factorial growth associated with these integers (scaled by \( e \)), and a count of configurations or arrangements related to each integer.
 
 ...Compared to the first sequence discussed, One sequence "adds then multiplies," and the other "multiplies then subtracts," and they do so with slightly adjusted scaling factors (
 �
